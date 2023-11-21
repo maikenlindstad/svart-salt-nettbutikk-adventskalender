@@ -5,7 +5,7 @@ const adventCalendarContainer = document.querySelector(".advent-calendar");
 
 adventBoxes.forEach(adventBox => {
   adventCalendarContainer.innerHTML += `
-  <div class="advent-box" style="background-image:url('${adventBox.boxCover}');">
+  <div class="advent-box" style="background-image:url('${adventBox.boxCover}');" data-id="${adventBox.id}" data-name="${adventBox.title}">
     <h2 class="show">${adventBox.box}</h2>
   </div>`;
 });

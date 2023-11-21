@@ -1,0 +1,49 @@
+.advent-box,
+.show,
+.transparent {
+  width: 180px;
+  height: 180px;
+}
+
+.advent-calendar,
+.advent-box,
+.show,
+.transparent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advent-calendar {
+  max-width: 800px;
+  width: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: auto;
+}
+
+.advent-box,
+.show {
+  border-radius: 10px;
+}
+
+.advent-box {
+  color: #f6dcdc;
+  font-size: 2rem;
+  position: relative;
+  background-size: cover;
+}
+
+.advent-box:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.show {
+  background-color: #733e3e;
+}
+
+.transparent {
+  filter: opacity(0);
+}
