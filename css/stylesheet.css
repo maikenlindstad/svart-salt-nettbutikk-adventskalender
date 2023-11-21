@@ -1,0 +1,65 @@
+body {
+  background-color: #303030;
+}
+
+.advent-calendar {
+  max-width: 600px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin: auto;
+}
+
+.advent-box {
+  width: 120px;
+  height: 120px;
+  /* background-color: #733e3e; */
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f6dcdc;
+  font-size: 2rem;
+  position: relative;
+  background-size: cover;
+}
+
+.advent-box:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.show {
+  background-color: #733e3e;
+  width: 120px;
+  border-radius: 10px;
+
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transparent {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: opacity(0);
+}
+
+.front-side {
+  margin: auto;
+}
+
+.do-not-show {
+  display: none;
+}
+
+.do-show {
+  display: block;
+}
