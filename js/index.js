@@ -22,32 +22,29 @@ adventBoxes.forEach(adventBox => {
   }
 
   adventCalendarContainer.innerHTML += `
-  <div class="advent-box" style="background-image:url('${adventBox.boxCover}');" data-id="${adventBox.id}" data-title="${adventBox.title}">
-    <h2 class="${cssClass}">${adventBox.box}</h2>
-  </div>`;
+  <div class="advent-container">
+    <div class="advent-box" style="background-image:url('${adventBox.boxCover}');" data-id="${adventBox.id}" data-title="${adventBox.title}">
+      <h2 class="${cssClass}">${adventBox.boxNr}</h2>
+    </div>
+  </div>
+  `;
 });
 
 const flipButton = document.querySelectorAll(".advent-box");
 
-// console.log(flipButton);
 
 flipButton.forEach((button) => {
   button.addEventListener("click", handleClick);
 })
 
 function handleClick() {
-  // console.log(event);
   event.target.classList.toggle("transparent");
   event.target.classList.toggle("show");
 
   const id = this.dataset.id;
   const title = this.dataset.title;
 
-  // console.log("id", id);
-  // console.log("title", title);
-
   const currentOpenedBoxes = getExistingBoxes();
-  // console.log(currentOpenedBoxes);
 
   const productExists = currentOpenedBoxes.find(function (opened) {
     return opened.id === id;
@@ -69,7 +66,6 @@ function handleClick() {
 function getExistingBoxes() {
   const openedBox = localStorage.getItem("openedBoxes");
 
-  // console.log(openedBox);
 
   if (!openedBox) {
     return [];

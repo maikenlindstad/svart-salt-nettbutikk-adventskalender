@@ -1,16 +1,16 @@
 export default [
   {
     id: 1,
-    box: 1,
+    boxNr: 1,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
     title: "Title",
-    content: "Lorem ipsum",
+    content: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
   },
   {
     id: 2,
-    box: 2,
+    boxNr: 2,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -19,7 +19,7 @@ export default [
   },
   {
     id: 3,
-    box: 3,
+    boxNr: 3,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -28,7 +28,7 @@ export default [
   },
   {
     id: 4,
-    box: 4,
+    boxNr: 4,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -37,7 +37,7 @@ export default [
   },
   {
     id: 5,
-    box: 5,
+    boxNr: 5,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -46,7 +46,7 @@ export default [
   },
   {
     id: 6,
-    box: 6,
+    boxNr: 6,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -55,7 +55,7 @@ export default [
   },
   {
     id: 7,
-    box: 7,
+    boxNr: 7,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -64,7 +64,7 @@ export default [
   },
   {
     id: 8,
-    box: 8,
+    boxNr: 8,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -73,7 +73,7 @@ export default [
   },
   {
     id: 9,
-    box: 9,
+    boxNr: 9,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -82,7 +82,7 @@ export default [
   },
   {
     id: 10,
-    box: 10,
+    boxNr: 10,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -91,7 +91,7 @@ export default [
   },
   {
     id: 11,
-    box: 11,
+    boxNr: 11,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -100,7 +100,7 @@ export default [
   },
   {
     id: 12,
-    box: 12,
+    boxNr: 12,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -109,7 +109,7 @@ export default [
   },
   {
     id: 13,
-    box: 13,
+    boxNr: 13,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -118,7 +118,7 @@ export default [
   },
   {
     id: 14,
-    box: 14,
+    boxNr: 14,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -127,7 +127,7 @@ export default [
   },
   {
     id: 15,
-    box: 15,
+    boxNr: 15,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -136,7 +136,7 @@ export default [
   },
   {
     id: 16,
-    box: 16,
+    boxNr: 16,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -145,7 +145,7 @@ export default [
   },
   {
     id: 17,
-    box: 17,
+    boxNr: 17,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -154,7 +154,7 @@ export default [
   },
   {
     id: 18,
-    box: 18,
+    boxNr: 18,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -163,7 +163,7 @@ export default [
   },
   {
     id: 19,
-    box: 19,
+    boxNr: 19,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -172,7 +172,7 @@ export default [
   },
   {
     id: 20,
-    box: 20,
+    boxNr: 20,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -181,7 +181,7 @@ export default [
   },
   {
     id: 21,
-    box: 21,
+    boxNr: 21,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -190,7 +190,7 @@ export default [
   },
   {
     id: 22,
-    box: 22,
+    boxNr: 22,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -199,7 +199,7 @@ export default [
   },
   {
     id: 23,
-    box: 23,
+    boxNr: 23,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",
@@ -208,7 +208,7 @@ export default [
   },
   {
     id: 24,
-    box: 24,
+    boxNr: 24,
     boxCover: "../../images/box-covers/boxcover.png",
     image: "image",
     imageSrc: "image source",

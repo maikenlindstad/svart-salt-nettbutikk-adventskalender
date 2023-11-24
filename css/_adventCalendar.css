@@ -1,8 +1,8 @@
 .advent-box,
 .show,
 .transparent {
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
 }
 
 .advent-calendar,
@@ -24,7 +24,8 @@
 }
 
 .advent-box,
-.show {
+.show,
+.button {
   border-radius: 10px;
 }
 
@@ -33,17 +34,73 @@
   font-size: 2rem;
   position: relative;
   background-size: cover;
+  /* z-index: 300; */
 }
 
 .advent-box:hover {
-  color: white;
+  /* color: white; */
   cursor: pointer;
 }
 
 .show {
   background-color: #733e3e;
+  position: absolute;
+  /* z-index: 2000; */
 }
 
 .transparent {
   filter: opacity(0);
+  z-index: 0;
+}
+
+button {
+  position: absolute;
+}
+
+.advent-box-hidden-content,
+.advent-box {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.index1000 {
+  z-index: 1000;
+}
+
+.advent-calendar {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 200px 0;
+}
+
+.advent-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.advent-box {
+  position: absolute;
+}
+
+@media only screen and (max-width: 798px) {
+  .advent-box,
+  .show,
+  .transparent {
+    width: 140px;
+    height: 140px;
+  }
+  
+  .advent-calendar {
+    width: 300px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(12, 1fr);
+    gap: 150px 0;
+  }
 }
