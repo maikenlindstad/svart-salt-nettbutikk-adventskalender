@@ -28,4 +28,3 @@ A style tile to set the tone is always nice. Check out both style tile and proto
 
 I will start to make the app by adding an API. Since the app is small and short lived, I will make the API inside the app itself. Even though I won't add all my content yet, I will make sure the API provides enough
 text to help in developing the app.
-

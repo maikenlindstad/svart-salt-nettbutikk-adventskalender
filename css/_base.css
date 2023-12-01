@@ -1,14 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+* {
+  margin: 0;
+}
+
 body {
   /* background-color: #303030; */
   background-color: #111111;
   margin: 0;
   padding: 0;
+  color: #f6dcdc;
 }
 
 header {
   padding: 20px;
+  color: #f6dcdc;
 }
-
+.icon {
+  width: 40px;
+  padding: 10px;
+}
 h1 {
   color: whitesmoke;
 }
