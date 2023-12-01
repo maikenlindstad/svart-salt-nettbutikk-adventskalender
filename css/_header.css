@@ -33,3 +33,8 @@ h1 {
   font-family: "Nanum Myeongjo", serif;
   color: #f6dcdc;
 }
+
+.intro p {
+  padding: 5px 0;
+  color: #f6dcdc;
+}
