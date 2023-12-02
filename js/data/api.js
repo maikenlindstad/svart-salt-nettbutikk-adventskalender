@@ -29,7 +29,7 @@ export default [
   {
     id: 4,
     boxNr: 4,
-    boxCover: "../../images/box-covers/placeholder.jpg",
+    boxCover: "../../images/box-covers/box4.jpg",
     image: "image",
     imageSrc: "image source",
     title: "Title",
@@ -38,7 +38,7 @@ export default [
   {
     id: 5,
     boxNr: 5,
-    boxCover: "../../images/box-covers/placeholder.jpg",
+    boxCover: "../../images/box-covers/box5.jpg",
     image: "image",
     imageSrc: "image source",
     title: "Title",
@@ -92,7 +92,7 @@ export default [
   {
     id: 11,
     boxNr: 6,
-    boxCover: "../../images/box-covers/placeholder.jpg",
+    boxCover: "../../images/box-covers/box6.jpg",
     image: "image",
     imageSrc: "image source",
     title: "Title",
@@ -209,7 +209,7 @@ export default [
   {
     id: 24,
     boxNr: 3,
-    boxCover: "../../images/box-covers/placeholder.jpg",
+    boxCover: "../../images/box-covers/box3.jpg",
     image: "image",
     imageSrc: "image source",
     title: "Title",
