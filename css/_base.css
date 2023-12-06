@@ -29,6 +29,14 @@ p {
   text-decoration: none;
 }
 
+a p {
+  text-decoration: underline;
+}
+
+a p:hover {
+  text-decoration: none;
+}
+
 ul {
   padding-inline-start: 0;
   list-style: none;
